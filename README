@@ -1,4 +1,5 @@
-Project Title: Hall of the World’s Most Useless Superpowers
+
+**Project Title: Hall of the World’s Most Useless Superpowers**
 
 Project overview:- It’s a fun platform where people can log in and create their own lists of the most ridiculously useless superpowers they can imagine. Users can rate how useless these powers are, share their lists, and see what others have come up with.
 
@@ -15,9 +16,9 @@ Dynamic Dashboard: The dashboard is super simple to navigate, so you can easily 
 Fun Insights: You’ll get insights like which powers are the most popular and which one holds the title of “Ultimate Useless Superpower.”
 
 Tech Stack:
-
 Frontend: React.js , css framework
-
 Backend: Node.js, Express.js and MongoDB
 
 Why This Project: I’ll get to practice building a full-stack application, handling user-specific data, and creating a fun, engaging experience for everyone who uses it.
+
+
