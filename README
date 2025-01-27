@@ -4,7 +4,6 @@
 Project overview:- It’s a fun platform where people can log in and create their own lists of the most ridiculously useless superpowers they can imagine. Users can rate how useless these powers are, share their lists, and see what others have come up with.
 
 Key features:-
-
 Personalized Lists: Each user gets their own list of superpowers to manage.
 
 Rate and Rank: Users can rank superpowers on a "Uselessness Scale" and see how their favorites compare.
@@ -20,5 +19,7 @@ Frontend: React.js , css framework
 Backend: Node.js, Express.js and MongoDB
 
 Why This Project: I’ll get to practice building a full-stack application, handling user-specific data, and creating a fun, engaging experience for everyone who uses it.
+
+
 
 
