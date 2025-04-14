@@ -1,0 +1,63 @@
+{
+    "users": {
+      "name": "String",
+      "email": "String",
+      "role": "String",
+      "createdAt": "Date"
+    },
+    "drivers": {
+      "name": "String",
+      "cabId": "String",
+      "status": "String",
+      "location": {
+        "lat": "Number",
+        "lng": "Number"
+      }
+    },
+    "cabs": {
+      "cabId": "String",
+      "type": "String",
+      "capacity": "Number",
+      "available": "Boolean"
+    },
+    "rides": {
+      "userId": "String",
+      "driverId": "String",
+      "pickupTime": "Date",
+      "status": "String"
+    },
+    "locations": {
+      "locationName": "String",
+      "coordinates": {
+        "lat": "Number",
+        "lng": "Number"
+      }
+    },
+    "admins": {
+      "name": "String",
+      "email": "String",
+      "permissions": ["String"]
+    },
+    "feedbacks": {
+      "rideId": "String",
+      "rating": "Number",
+      "comments": "String"
+    },
+    "notifications": {
+      "userId": "String",
+      "message": "String",
+      "timestamp": "Date"
+    },
+    "payments": {
+      "rideId": "String",
+      "amount": "Number",
+      "paymentMethod": "String"
+    },
+    "issues": {
+      "rideId": "String",
+      "reportedBy": "String",
+      "issue": "String",
+      "status": "String"
+    }
+  }
+  
