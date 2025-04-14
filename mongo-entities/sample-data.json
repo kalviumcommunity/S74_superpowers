@@ -1,0 +1,87 @@
+[
+    {
+      "collection": "users",
+      "document": {
+        "name": "Amulya B",
+        "email": "amulya@example.com",
+        "role": "student",
+        "createdAt": "2025-04-14T10:00:00Z"
+      }
+    },
+    {
+      "collection": "drivers",
+      "document": {
+        "name": "Ravi Kumar",
+        "cabId": "CAB001",
+        "status": "active",
+        "location": { "lat": 12.9716, "lng": 77.5946 }
+      }
+    },
+    {
+      "collection": "cabs",
+      "document": {
+        "cabId": "CAB001",
+        "type": "Electric",
+        "capacity": 4,
+        "available": true
+      }
+    },
+    {
+      "collection": "rides",
+      "document": {
+        "userId": "USER123",
+        "driverId": "DRIVER456",
+        "pickupTime": "2025-04-14T10:30:00Z",
+        "status": "completed"
+      }
+    },
+    {
+      "collection": "locations",
+      "document": {
+        "locationName": "Main Gate",
+        "coordinates": { "lat": 12.9718, "lng": 77.5937 }
+      }
+    },
+    {
+      "collection": "admins",
+      "document": {
+        "name": "Kalvium Admin",
+        "email": "admin@kalvium.com",
+        "permissions": ["view-reports", "edit-users"]
+      }
+    },
+    {
+      "collection": "feedbacks",
+      "document": {
+        "rideId": "RIDE001",
+        "rating": 5,
+        "comments": "Great experience!"
+      }
+    },
+    {
+      "collection": "notifications",
+      "document": {
+        "userId": "USER123",
+        "message": "Your cab has arrived at the Main Gate!",
+        "timestamp": "2025-04-14T10:25:00Z"
+      }
+    },
+    {
+      "collection": "payments",
+      "document": {
+        "rideId": "RIDE001",
+        "amount": 45,
+        "paymentMethod": "UPI"
+      }
+    },
+    {
+      "collection": "issues",
+      "document": {
+        "rideId": "RIDE002",
+        "reportedBy": "USER456",
+        "issue": "Cab was late",
+        "status": "resolved"
+      }
+    }
+  ]
+  
